@@ -17,7 +17,7 @@ Tagify https://yaireo.github.io/tagify/
 - activate the plugin in /app/Config/bootstrap.php
 
 ```php
-CakePlugin::loadAll(array( <br>
+CakePlugin::loadAll(array(
     'CakeTagify' => array('bootstrap' => false, 'routes' => false)
 ));
 ```
